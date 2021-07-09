@@ -1,0 +1,24 @@
+.card{
+  width: 15rem;
+  transition: .5s;
+  margin: 10px;
+  img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .card-body{
+
+    text-align: center;
+  }
+  .btn-primary{
+    transition: .5s;
+  }
+  .btn-primary:hover{
+    background-color: #ffeb3b;
+    color: black;
+  }
+}
+.card:hover{
+  box-shadow: 0 0 15px -1px rgb(0 0 0 / 75%);
+}

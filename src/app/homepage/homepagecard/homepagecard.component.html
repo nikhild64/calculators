@@ -1,0 +1,8 @@
+<div class="card" >
+  <img [src]="cData.stockImage" class="card-img-top" [alt]="cData.name">
+  <div class="card-body">
+    <h5 class="card-title"> {{cData.name}} </h5>
+    <p class="card-text">{{cData.description}}</p>
+    <a routerLink="/calculators"  class="btn btn-primary">Calculate</a>
+  </div>
+</div>
