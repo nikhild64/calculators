@@ -1,0 +1,27 @@
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  span, div{
+    color: white;
+
+    transition: .5s;
+  }
+  div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    a{
+      color: #ffeb3b;
+      transition: .5s;
+    }
+    a:hover{
+      color: black;
+
+    }
+    span:first-child:hover{
+
+      color: #ffeb3b;
+    }
+  }
+}
